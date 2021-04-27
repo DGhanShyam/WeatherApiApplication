@@ -1,0 +1,33 @@
+
+/* body{
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.jVgPFsX2RjROpnHOvy0-7QHaEK%26pid%3DApi&f=1');
+
+} */
+
+.success{
+  display:inline;
+}
+
+.danger{
+  display:none;
+}
+
+.example-form {
+  min-width: 150px;
+  max-width: 400px;
+  width: 100%;
+  margin:50px auto;
+  padding: 20px 20px;
+  border: 4px white solid;
+  border-radius: 5px;
+}
+
+.example-full-width {
+  width: 100%;
+}
+.example-half-width {
+  width: 50%;
+}
+button{
+  margin: 5px 130px;
+}

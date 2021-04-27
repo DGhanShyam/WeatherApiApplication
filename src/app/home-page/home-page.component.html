@@ -1,0 +1,37 @@
+<mat-grid-list class="grid"
+cols="3" rowHeight="1:1">
+  <mat-grid-tile>
+    Name: {{this.ojb[0].Fname}}
+    {{this.ojb[0].Lname}}  <br>
+
+    Pincode: {{this.ojb[0].pincode}} <br>
+    Age: {{this.ojb[0].age}} <br>
+    Gender: {{this.ojb[0].gender}} <br>
+    Phone: {{this.ojb[0].phone}} <br>
+    Address: {{this.ojb[0].Fnamaddresse}} <br>
+    Mail: {{this.ojb[0].mail}} <br>
+
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    State: {{this.WeatherData[0].PostOffice[0].Circle}} <br><br>
+    District: {{this.WeatherData[0].PostOffice[0].District}} <br><br>
+    City: {{this.WeatherData[0].PostOffice[0].Name}} <br><br>
+    Area: {{this.weatherDataLive.name}}  <br>
+    Temprature: {{this.weatherDataLive.main.feels_like  - 273.15 |  number}} Celcius <br>
+    Min temprature: {{this.weatherDataLive.main.temp_min  - 273.15 |  number}} Celcius <br>
+
+  </mat-grid-tile>
+
+  <mat-grid-tile>
+    Humidity: {{this.weatherDataLive.main.humidity }} % <br>
+    Sea Level: {{this.weatherDataLive.main.sea_level  }} mm <br>
+    Ground Level: {{this.weatherDataLive.main.grnd_level  }} inches <br>
+    Wind Speed: {{this.weatherDataLive.wind.speed  }} miles/hr <br>
+    Wind Degree: {{this.weatherDataLive.wind.deg  }}  <br>
+    Gust: {{this.weatherDataLive.wind.gust  }} knots <br>
+
+  </mat-grid-tile>
+
+</mat-grid-list>
+
